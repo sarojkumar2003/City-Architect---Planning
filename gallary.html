@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-700 text-white">
+
+    <!-- Gallery Content -->
+    <div class="h-full w-full grid place-items-center relative mt-10">
+        <p class="text-[#d7a150] uppercase">Our Project</p>
+        <h1 class="font-bold text-white text-[3rem] wow animate__animated animate__bounceIn animate__slow">
+            Explore our Project Design
+        </h1>
+        <p class="text-white w-[43rem] text-[0.9rem] wow animate__animated animate__bounceIn animate__slow">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nihil eos earum repellat veritatis similique quod eum ab pariatur voluptates? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="flex flex-wrap gap-5 p-10 ml-[5rem] wow animate__animated animate__bounceIn animate__slow">
+            <img src="img/side view 2.jpg" class="gallery-image h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-transform duration-500 hover:scale-110 shadow-2xl shadow-black" />
+            <img src="img/slide-8.jpg" class="gallery-image h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-transform duration-500 hover:scale-110 shadow-2xl shadow-black" />
+            <img src="img/3 BHK-Model.jpg" class="gallery-image h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-transform duration-500 hover:scale-110 shadow-2xl shadow-black" />
+            <img src="img/slide-5.jpg" class="gallery-image h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-transform duration-500 hover:scale-110 shadow-2xl shadow-black" />
+            <img src="img/IMG-20190406-WA0002.jpg" class="gallery-image h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-transform duration-500 hover:scale-110 shadow-2xl shadow-black" />
+            <img src="img/pic 1.jpg" class="gallery-image h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-transform duration-500 hover:scale-110 shadow-2xl shadow-black" />
+        </div>
+    </div>
+
+    <!-- Zoomed Image Container -->
+    <div id="zoomed" class="fixed inset-0 items-center justify-center bg-black bg-opacity-75 hidden transition-opacity duration-500">
+        <button id="close-btn" class="absolute top-4 right-4 text-white bg-red-500 rounded-full p-2 hover:bg-red-700 transition-all duration-300">X</button>
+        <img id="zoomed-img" src="" class="max-w-[40rem] max-h-[40rem] rounded-md shadow-lg">
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        const zoomedContainer = document.getElementById('zoomed');
+        const zoomedImg = document.getElementById('zoomed-img');
+        const closeBtn = document.getElementById('close-btn');
+        const galleryImages = document.querySelectorAll('.gallery-image');
+
+        galleryImages.forEach(image => {
+            image.addEventListener('click', () => {
+                zoomedImg.src = image.src;
+                zoomedContainer.classList.remove('hidden');
+                setTimeout(() => {
+                    zoomedContainer.classList.add('opacity-100');
+                }, 10); // Slight delay to trigger transition
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            zoomedContainer.classList.remove('opacity-100');
+            setTimeout(() => {
+                zoomedContainer.classList.add('hidden');
+            }, 500); // Match the duration of the transition
+        });
+
+        zoomedContainer.addEventListener('click', (e) => {
+            if (e.target === zoomedContainer) { // Close only if clicking outside the image
+                zoomedContainer.classList.remove('opacity-100');
+                setTimeout(() => {
+                    zoomedContainer.classList.add('hidden');
+                }, 500);
+            }
+        });
+    </script>
+</body>
+</html>

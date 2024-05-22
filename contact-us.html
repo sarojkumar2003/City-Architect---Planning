@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("r1xhznwx3oOLcSO1I");
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container bg-[#30373f]">
+        <div class="flex relative">
+          <h1 class="p-5 text-white font-light text-[2rem] z-10">
+            City Architecture & Design
+          </h1>
+          <!-- navigation bar -->
+          <nav class="lg:flex z-10 gap-x-14 font-bold lg:ml-[15rem] p-7">
+            <div class="group">
+              <ul>
+                <a href="index.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all text-white duration-200"
+                  >
+                    Home
+                  </li>
+
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="about.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    About
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="project.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    Project
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="service.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    Services
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="contact-us.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-orange-600"
+                  >
+                    Contact Us
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-full bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- contact-us content -->
+
+        <div
+          class="h-[6rem] w-full bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300"
+        >
+          <p class="p-[1rem] text-[2rem] relative ml-[3rem]">CONTACT US</p>
+        </div>
+      </div>
+
+      <div class="bg-[#23262d] relative">
+        <!-- forms -->
+        <div class="absolute ml-[15rem] mt-[9rem] z-10">
+          <form id="form">
+            <div class="field">
+              <label for="from_name" class="uppercase text-white">your name</label>
+              <input
+                type="text"
+                name="from_name"
+                id="from_name"
+                class="ml-[2rem] border-2 border-black/45 w-[40rem] h-8 rounded-md mb-4"
+              />
+            </div>
+            <div class="field">
+              <label for="subject" class="uppercase text-white">subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                class="ml-[3.8rem] border-2 border-black/45 w-[40rem] h-8 rounded-md mb-4"
+              />
+            </div>
+            <div class="field">
+              <label for="gmail" class="uppercase text-white">gmail</label>
+              <input
+                type="text"
+                name="gmail"
+                id="gmail"
+                class="ml-[4.5rem] border-2 border-black/45 w-[40rem] h-8 rounded-md mb-4"
+              />
+            </div>
+            <div class="field">
+              <label for="message" class="uppercase text-white">message</label>
+              <textarea name="message" id="message" rows="4" class="block ml-[8rem] w-[40rem] rounded-md border-2 px-3.5 py-2 -mt-5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600"></textarea>
+        
+              />
+            </div>
+
+            <input
+              type="submit"
+              id="button"
+              value="Send Email"
+              class="border w-[10rem] h-[2rem] rounded-md mb-10 ml-[21rem] text-white scale-95 cursor-pointer hover:scale-105 hover:bg-purple-500 transition-all duration-500"
+            />
+          </form>
+        </div>
+
+         <div>
+        <img src="./images/backImg.png" class="mix-blend-overlay h-[35rem] w-full" />
+      </div>
+      </div>
+
+
+      <!-- nav bar -->
+      
+      <div
+        class="h-[15rem] relative flex items-center justify-center bg-[#342f2fb5] text-white"
+      >
+        <div class="flex gap-10">
+          <div class="relative ml-[10rem]">
+            <h1 class="font-bold text-white">Be Future-Ready</h1>
+            <p class="w-[20rem] mt-5 text-white text-[0.7rem]">
+              Unlock the potential of your space with our visionary architects.
+              From concept to construction, we turn imagination into
+              breathtaking reality. Elevate your environment. Elevate your
+              experience. Let's build something extraordinary together.
+            </p>
+          </div>
+          <div>
+            <h2 class="text-white font-bold">About</h2>
+            <ul class="text-[0.7rem] mt-5">
+              <a href="#">Our Team </a>
+            </ul>
+            <ul class="text-[0.7rem]">
+              <a href="#">Project </a>
+            </ul>
+            <ul class="text-[0.7rem]">
+              <a href="#"> term and conditions</a>
+            </ul>
+            <ul class="text-[0.7rem]">
+              <a href="#"> privacy and policy </a>
+            </ul>
+          </div>
+
+          <div>
+            <div class="font-bold">
+              <p>Connect With Us</p>
+            </div>
+            <div class="flex gap-3 mt-4">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                ></i
+              ></a>
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                ></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="ml-5">
+            <h3 class="font-bold">Contact Us</h3>
+            <div class="mt-5">
+              <ul class="flex gap-5">
+                <i class="fa fa-phone mt-2" aria-hidden="true"></i>
+                <p>+91- 9818381406</p>
+              </ul>
+              <ul class="flex gap-5">
+                <i class="fa-solid fa-envelope mt-2"></i>
+                <p>sharmaroshan685@gamil.com</p>
+              </ul>
+              <ul class="flex gap-5">
+                <i class="fa-solid fa-location-dot mt-2"></i>
+                <p>25/A, Gagan Vihar, MithaPur, BadarPur New Delhi- 110044.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="absolute w-[35rem] mt-[10rem] ml-[10rem]">
+          <p class="text-white text-[0.8rem] absolute text-center">
+            &copy; copyright 2024
+            <span class="text-[#d7a150]">City Architecture and Planning.</span>
+            All rights reserved.
+          </p>
+        </div>
+        <img
+          src="./images/src3-removebg-preview.png"
+          class="h-[14rem] w-[25rem] -ml-[10rem] mix-blend-color-burn z-20"
+        />
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/5ad7b368d8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const btn = document.getElementById("button");
+
+      document
+        .getElementById("form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          btn.value = "Sending...";
+
+          const serviceID = "default_service";
+          const templateID = "template_752jqwf";
+
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = "Send Email";
+              alert("Your Message Sent!");
+            },
+            (err) => {
+              btn.value = "Send Email";
+              alert(JSON.stringify(err));
+            }
+          );
+        });
+    </script>
+  </body>
+</html>

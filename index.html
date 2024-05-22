@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="cssfile/extra.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5ad7b368d8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="mx-auto">
+      <div class="container h-screen bg-white">
+        <div class="flex relative">
+          <h1 class="lg:p-5 text-white font-light lg:text-[2rem] z-10">
+            City Architecture & Design
+          </h1>
+          <!-- navigation bar -->
+          <nav class="lg:flex z-10 sm:block hidden gap-x-14 font-bold lg:ml-[15rem] p-7">
+            <div class="group">
+              <ul>
+                <a href="index.html">
+                  <li
+                    class="group-hover:text-orange-600 text-orange-600 transition-all duration-200"
+                  >
+                    Home
+                  </li>
+
+                  <div
+                    class="-mt-1 h-[0.2rem] bg-orange-600 group-hover:block w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="about.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    About
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="project.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    Project
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="service.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    Services
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+
+            <div class="group">
+              <ul>
+                <a href="contact-us.html">
+                  <li
+                    class="group-hover:text-orange-600 transition-all duration-200 text-white"
+                  >
+                    Contact Us
+                  </li>
+                  <div
+                    class="-mt-1 h-[0.2rem] w-0 bg-orange-600 group-hover:block group-hover:w-full transition-all duration-200"
+                  ></div
+                ></a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- home page heading -->
+        <div class="absolute lg:mt-[10rem] mt-[7rem] lg:ml-[8.3rem] ml-[2rem] z-10">
+          <h1 class="font-extrabold lg:text-[4rem] text-[1rem] text-white font-serif">
+            City Architecture and Planning
+          </h1>
+          <div class="h-1 lg:w-[30rem] w-[10rem] bg-white/65"></div>
+          <p class="font-extrabold lg:text-[2rem] text-[1rem] text-white font-serif">
+            To Work with
+            <span
+              id="typewriter"
+              class="font-extrabold lg:text-[2rem] text-[1rem] text-purple-600"
+            ></span>
+          </p>
+          <p class="text-white lg:text-[0.8rem] text-[0.5rem] lg:w-[60rem] w-[17rem] font-light">
+            City Architects & Planning (CAP) is a renowned architectural firm
+            based in Delhi, India. Established in 2021, CAP specializes in town
+            planning, urban design, structural engineering, and a wide range of
+            services. Under the leadership of the experienced architect R K
+            Sharma, CAP's team is dedicated to delivering top-notch quality,
+            efficiency, and client satisfaction at every stage of the design and
+            execution process. With a strong focus on excellence, CAP is widely
+            recognized for its cutting-edge architectural solutions and
+            proficiency in delivering projects that surpass industry standards.
+          </p>
+        </div>
+
+        <div class="absolute -mt-[6rem]">
+          <div class="overflow-hidden bg-black/60">
+            <div class="flex transition-transform duration-300 ease-in-out">
+              <div class="lg:w-full flex-shrink-0 mySlides">
+                <img
+                  src="./img/slide-2.jpg"
+                  alt="Slide 1"
+                  class="lg:h-[38rem] h-[30rem] w-screen mix-blend-overlay"
+                />
+              </div>
+              <div class="w-full flex-shrink-0 mySlides">
+                <img
+                  src="./img/slide-5.jpg"
+                  alt="Slide 2"
+                  class="lg:h-[38rem] h-[30rem] w-screen mix-blend-overlay"
+                />
+              </div>
+              <div class="w-full flex-shrink-0 mySlides">
+                <img
+                  src="./img/slide-7.jpg"
+                  alt="Slide 3"
+                  class="lg:h-[38rem] h-[30rem] w-screen mix-blend-overlay"
+                />
+              </div>
+              <div class="w-full flex-shrink-0 mySlides">
+                <img
+                  src="./img/pic 9.jpg"
+                  alt="Slide 3"
+                  class="lg:h-[38rem] h-[30rem] w-screen mix-blend-overlay"
+                />
+              </div>
+              <div class="w-full flex-shrink-0 mySlides">
+                <img
+                  src="./img/pic620.jpg "
+                  alt="Slide 3"
+                  class="lg:h-[38rem] h-[30rem] w-screen mix-blend-overlay"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:mt-[15rem] mt-[10rem]">
+          <a
+            class="prev lg:text-[2rem] p-5 relative rounded-r-md hover:bg-black hover:text-white"
+            onclick="plusSlides(-1)"
+            >❮</a
+          >
+          <a
+            class="next lg:text-[2rem] p-5 -mt-5 rounded-l-md hover:bg-black hover:text-white absolute right-0"
+            onclick="plusSlides(1)"
+            >❯</a
+          >
+        </div>
+
+        <!-- about section -->
+        <div
+          class="lg:mr-[5rem] lg:w-[100%] bg-[#23262d] overflow-hidden lg:mt-[14rem] mt-[12rem] relative"
+        >
+          <div class="absolute flex">
+            <hr
+              class="lg:h-[10rem] h-[5rem]  lg:w-[2vh] w-[0.1rem] absolute mt-[4rem] lg:mt-[7.1rem] ml-[3rem] lg:ml-[6.8rem] bg-white mix-blend-overlay"
+            />
+            <hr
+              class="lg:h-[3rem] h-[5rem] lg:w-[2vh] w-[0.1rem] absolute rotate-90 lg:ml-[8.7rem] ml-[4rem] lg:mt-[6rem] mt-[3rem] bg-white mix-blend-overlay"
+            />
+            <hr
+              class="lg:h-[3rem] h-[0.1rem] lg:w-[2vh] w-[1rem] absolute rotate-90 lg:mt-[15.2rem] mt-[7rem] lg:ml-[8.7rem] ml-[4rem] bg-white mix-blend-overlay"
+            />
+            <div
+              class="flex lg:mt-[8rem] lg:ml-[10rem] wow animate__animated animate__zoomIn"
+            >
+              <h1 class="lg:text-[5rem] font-extrabold text-[#d7a150]">
+                5 <b class="lg:-ml-7">+</b>
+              </h1>
+              <p class="text-white font-semibold lg:mt-[1.5rem] text-[1rem] lg:ml-4">
+                Year <br />
+                Experience <br />
+                working
+              </p>
+            </div>
+            <hr
+              class="lg:h-[10rem] lg:w-[2vh] absolute lg:mt-[7.1rem] lg:ml-[24rem] bg-white mix-blend-overlay"
+            />
+            <hr
+              class="lg:h-[3rem] lg:w-[2vh] absolute rotate-90 lg:ml-[22.1rem] lg:mt-[6rem] bg-white mix-blend-overlay"
+            />
+            <hr
+              class="lg:h-[3rem] lg:w-[2vh] absolute rotate-90 lg:mt-[15.2rem] lg:ml-[22.1rem] bg-white mix-blend-overlay"
+            />
+          </div>
+
+          <div
+            class="absolute lg:mt-[5rem] mt-[3rem] lg:ml-[30rem] ml-[20rem] wow animate__animated animate__zoomIn"
+          >
+            <p class="font-light lg:text-[1.5rem] text-[1rem] text-[#d7a150]">About us</p>
+            <p
+              class="text-white lg:text-[2.5rem] text-[0.8rem] font-bold lg:ml-3  lg:leading-10 lg:mt-[2rem]"
+            >
+              Creative Solutions <br />
+              by Professional <br />
+              Designers
+            </p>
+          </div>
+
+          <div
+            class="text-[#7d8189] lg:w-[20rem] text-wrap absolute right-10 top-[5.5rem] wow animate__animated animate__slideInRight"
+          >
+            <p class="text-[0.5rem] w-[5rem] lg:text-[1rem] lg:w-[20rem]">
+              CAP has a wide range of experience in handling all types of
+              designs. Started in 2021 with a vision to review structure and
+              planning in India. CAP is one of the best architectural forms in
+              Delhi, India.
+            </p>
+          </div>
+          <button
+            class="flex bg-[#30373f] items-center text-center absolute rounded-3xl w-[14rem] uppercase text-white font-bold text-[.7rem] h-[2.5rem] right-32 mt-[15rem] hover:bg-blue-500 duration-700 transition-all"
+          >
+            <a href="about.html" class="ml-10"> continue reading</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 fill-white ml-4"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+              />
+            </svg>
+          </button>
+
+          <!-- prject images section -->
+
+          <div
+            class="mt-[20rem] ml-3 p-10 flex wow animate__animated animate__zoomIn animate__slow"
+          >
+            <div class="group">
+              <img
+                src="images/download (1).jpg"
+                class="w-[18rem] h-[37rem] rounded-md scale-90 hover:scale-100 transition-all duration-500 relative"
+              />
+              <h1
+                class="text-white text-[1.5rem] font-bold absolute -mt-[33rem] ml-[2rem]"
+              >
+                Country <br />
+                Collection
+              </h1>
+              <a href="">
+                <p
+                  class="w-[19rem] p-5 text-[1rem] text-white font-sans ml-5 font-bold -mt-[6rem] absolute"
+                >
+                  Read Me
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square text-white -mt-[4.5rem] ml-[7rem] absolute"
+                ></i
+              ></a>
+            </div>
+            <div class="group">
+              <img
+                src="images/download (1).jpg"
+                class="w-[18rem] h-[37rem] rounded-md scale-90 hover:scale-100 transition-all duration-500 relative"
+              />
+              <h1
+                class="text-white text-[1.5rem] font-bold absolute -mt-[33rem] ml-[2rem]"
+              >
+                Country <br />
+                Collection
+              </h1>
+              <a href="">
+                <p
+                  class="w-[19rem] p-5 text-[1rem] text-white font-sans ml-5 font-bold -mt-[6rem] absolute"
+                >
+                  Read Me
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square text-white -mt-[4.5rem] ml-[7rem] absolute"
+                ></i
+              ></a>
+            </div>
+            <div class="group">
+              <img
+                src="images/download (1).jpg"
+                class="w-[18rem] h-[37rem] rounded-md scale-90 hover:scale-100 transition-all duration-500 relative"
+              />
+              <h1
+                class="text-white text-[1.5rem] font-bold absolute -mt-[33rem] ml-[2rem]"
+              >
+                Country <br />
+                Collection
+              </h1>
+              <a href="#">
+                <p
+                  class="w-[19rem] p-5 text-[1rem] text-white font-sans ml-5 font-bold -mt-[6rem] absolute"
+                >
+                  Read Me
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square text-white -mt-[4.5rem] ml-[7rem] absolute"
+                ></i
+              ></a>
+            </div>
+            <div class="group">
+              <img
+                src="images/download (1).jpg"
+                class="w-[18rem] h-[37rem] rounded-md scale-90 hover:scale-100 transition-all duration-500 relative"
+              />
+              <h1
+                class="text-white text-[1.5rem] font-bold absolute -mt-[33rem] ml-[2rem]"
+              >
+                Country <br />
+                Collection
+              </h1>
+              <a href="#">
+                <p
+                  class="w-[19rem] p-5 text-[1rem] text-white font-sans ml-5 font-bold -mt-[6rem] absolute"
+                >
+                  Read Me
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square text-white -mt-[4.5rem] ml-[7rem] absolute"
+                ></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- why choose us section -->
+          <div class="p-10">
+            <p class="uppercase text-[#d7a150]">Why choose us</p>
+            <h1
+              class="text-white mt-5 text-[3rem] font-bold font-sans leading-none wow animate__animated animate__slideInRight animate__slow"
+            >
+              We work to an extremely high <br />
+              standard of customer satisfaction
+            </h1>
+          </div>
+          <!-- backgorund image -->
+          <div class="absolute -mt-[15rem] mix-blend-multiply opacity-25">
+            <img
+              src="./images/src3-removebg-preview.png"
+              class="h-[37.5rem] w-[100rem]"
+            />
+          </div>
+          <!-- why choose us section-2 -->
+          <div
+            class="p-14 mt-[2rem] ml-[7rem] flex gap-[10rem] wow animate__animated animate__zoomIn animate__slow"
+          >
+            <div class="h-[7rem] w-[7rem] rounded-full bg-[#31343d]">
+              <i
+                class="fa-regular fa-lightbulb text-[5rem] mt-5 ml-6 text-white"
+              ></i>
+            </div>
+            <div class="h-[7rem] w-[7rem] rounded-full bg-[#31343d]">
+              <i
+                class="fa-solid fa-money-check-dollar text-[4rem] mt-6 ml-5 text-white"
+              ></i>
+            </div>
+            <div class="h-[7rem] w-[7rem] rounded-full bg-[#31343d]">
+              <i
+                class="fa-solid fa-handshake text-[4rem] mt-6 ml-4 text-white"
+              ></i>
+            </div>
+            <div class="h-[7rem] w-[7rem] rounded-full bg-[#31343d] shadow-2xl">
+              <i
+                class="fa-solid fa-users-rectangle text-[4rem] mt-6 ml-4 text-white"
+              ></i>
+            </div>
+          </div>
+          <!-- why choose us secton-3 -->
+          <div class="flex ml-[11rem] gap-[12rem]">
+            <p class="text-[1rem] text-white font-medium">Full service</p>
+            <p class="text-[1rem] text-white font-medium">Deliver Value</p>
+            <p class="text-[1rem] text-white font-medium ml-1">Partners</p>
+            <p class="text-[1rem] text-white font-medium ml-6">Integrity</p>
+          </div>
+          <div class="flex ml-[5rem] mr-[5rem]">
+            <p class="w-[20rem] text-[#7d8189] mt-[0.5rem] ml-[2rem]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <p class="w-[20rem] text-[#7d8189] mt-[0.5rem] ml-[3.5rem]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <p class="w-[20rem] text-[#7d8189] mt-[0.5rem] ml-[2.5rem]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <p class="w-[20rem] text-[#7d8189] mt-[0.5rem] ml-[3.5rem]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- why choose us section image -->
+          <div class="relative">
+            <img
+              src="images/src5.jpg"
+              class="mt-[5rem] w-full h-[40rem] opacity-40"
+            />
+            <div class="absolute">
+              <p class="uppercase text-[#d7a150] -mt-[40rem] p-10">
+                promo video
+              </p>
+              <h1
+                class="p-10 -mt-10 text-white font-bold text-[3rem] leading-none wow animate__animated animate__slideInLeft animate__slow"
+              >
+                Ensuring a Safe <br />
+                experience from design <br />
+                to installation
+              </h1>
+              <p
+                class="text-white p-10 w-[35rem] font-light -mt-5 wow animate__animated animate__slideInLeft animate__slow"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corporis minima eligendi nostrum saepe hic perferendis corrupti
+                incidunt nisi rerum consequuntur perspiciatis, soluta dolor iste
+                sapiente ipsum non temporibus porro aut?
+              </p>
+              <a href="">
+                <button
+                  class="border uppercase w-[13rem] bg-[#fafafa] ml-[4rem] mt-[3rem] rounded-2xl font-semibold text-[0.5] h-[2.5rem]"
+                >
+                  more video<i class="fa-solid fa-play ml-[1rem]"></i></button
+              ></a>
+            </div>
+            <div
+              class="-mt-[30rem] ml-[40rem] absolute wow animate__animated animate__slideInRight animate__slow"
+            >
+              <iframe
+                class="w-[35rem] p-5 aspect-video rounded"
+                src="https://www.youtube.com/embed/HhpuXGuPQ1c?autoplay=1"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- scroll bar -->
+
+          <div class="scroller" data-direction="right" data-speed="slow">
+            <div class="scroller__inner">
+              <img src="images/1.png" class="h-[5rem]" />
+              <img src="images/2.png" class="h-[5rem]" />
+              <img src="images/3.png" class="h-[5rem]" />
+              <img src="images/4.png" class="h-[5rem]" />
+              <img src="images/5.png" class="h-[5rem]" />
+              <img src="images/1.png" class="h-[5rem]" />
+            </div>
+          </div>
+
+          <!-- our project secton -->
+          <div class="h-full w-full grid place-items-center relative mt-10">
+            <p class="text-[#d7a150] uppercase">Our Project</p>
+            <h1
+              class="font-bold text-white text-[3rem] wow animate__animated animate__bounceIn animate__slow"
+            >
+              Explore our Project Design
+            </h1>
+            <p
+              class="text-white text-wrap w-[43rem] text-[0.9rem] wow animate__animated animate__bounceIn animate__slow"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
+              nihil eos earum repellat veritatis similique quod eum ab pariatur
+              voluptates? Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit
+            </p>
+            <div
+              class="flex flex-wrap gap-5 p-10 ml-[5rem] wow animate__animated animate__bounceIn animate__slow"
+            >
+              <img
+                src="img/side view 2.jpg"
+                class="h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-all duration-500 hover:scale-110 shadow-2xl shadow-black"
+              />
+              <img
+                src="img/slide-8.jpg"
+                class="h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-all duration-500 hover:scale-110 shadow-2xl shadow-black"
+              />
+              <img
+                src="img/3 BHK-Model.jpg"
+                class="h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-all duration-500 hover:scale-110 shadow-2xl shadow-black"
+              />
+              <img
+                src="img/slide-5.jpg"
+                class="h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-all duration-500 hover:scale-110 shadow-2xl shadow-black"
+              />
+              <img
+                src="img/IMG-20190406-WA0002.jpg"
+                class="h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-all duration-500 hover:scale-110 shadow-2xl shadow-black"
+              />
+              <img
+                src="img/pic 1.jpg"
+                class="h-[15rem] w-[20.6rem] scale-90 rounded-md cursor-pointer transition-all duration-500 hover:scale-110 shadow-2xl shadow-black"
+              />
+            </div>
+
+            <button
+              class="p-3 mb-4 text-yellow-200 font-bold border rounded-full h-[2rem] hover:bg-purple-600 duration-500 transition-all shadow-lg scale-90 hover:scale-105"
+            >
+              <a href="gallary.html"> <p class="-mt-2">Show Gallary</p></a>
+            </button>
+          </div>
+
+          <!-- method section image -->
+          <div
+            class="absolute mt-[3rem] mix-blend-multiply opacity-25 ml-[2rem]"
+          >
+            <img src="./images/backImg.png" class="h-[25rem] w-[75rem]" />
+          </div>
+          <!-- method section-1 -->
+          <div class="flex">
+            <div class="bg-[#31343d] h-[30rem] w-[75rem] ml-[2rem]">
+              <p class="text-[#d7a150] uppercase mt-[5rem] ml-[5rem]">method</p>
+              <h1
+                class="font-bold text-white text-[3rem] w-[30rem] ml-[5rem] mt-[2rem] leading-none wow animate__animated animate__fadeInLeftBig animate__slow"
+              >
+                A modern approach to design
+              </h1>
+              <p
+                class="text-[#7d8189] w-[30rem] ml-[5rem] mt-[2rem] wow animate__animated animate__fadeInLeftBig animate__slow"
+              >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                explicabo sequi esse excepturi quam nostrum impedit magni
+                commodi incidunt. Velit harum, praesentium ipsa voluptate nam
+                exercitationem enim ipsam repudiandae provident!
+              </p>
+              <button
+                class="flex bg-[#d9a14c] items-center text-center absolute rounded-3xl w-[14rem] uppercase text-white font-bold text-[.7rem] h-[2.5rem] left-32 mt-[3rem]"
+              >
+                <a href="#" class="ml-10"> continue reading</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 fill-white ml-4"
+                  viewBox="0 0 448 512"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="absolute right-20 mt-[5rem]">
+              <img
+                src="img/slide-2.jpg"
+                class="h-[20rem] w-[35rem] rounded-md scale-75 hover:scale-100 duration-500 transition-all"
+              />
+            </div>
+          </div>
+
+          <!-- number counting section -->
+          <div
+            class="mt-[1rem] flex flex-wrap gap-[3rem] wow animate__animated animate__zoomIn animate__slow"
+          >
+            <div class="ml-[5rem] h-[10rem] flex">
+              <h1
+                class="counter text-[5rem] text-[#dca14e] font-bold"
+                data-val="25"
+              ></h1>
+              <span class="text-[#dca14e] text-[4rem] mt-3 font-bold"
+                >&plus;</span
+              >
+              <p class="text-white font-bold mt-[7rem] absolute">
+                Interior Design
+              </p>
+              <hr
+                class="rotate-[90deg] w-[5rem] opacity-30 mt-[5rem] ml-[3rem] h-1"
+              />
+            </div>
+
+            <div class="h-[10rem] flex">
+              <h1
+                class="counter text-[5rem] text-[#dca14e] font-bold"
+                data-val="93"
+              ></h1>
+              <span class="text-[#dca14e] text-[4rem] mt-3 font-bold"
+                >&plus;</span
+              >
+              <p class="text-white font-bold mt-[7rem] ml-3 absolute">
+                Architechture
+              </p>
+              <hr
+                class="rotate-[90deg] w-[5rem] opacity-30 mt-[5rem] ml-[3rem] h-1"
+              />
+            </div>
+
+            <div class="h-[10rem] flex">
+              <h1
+                class="counter text-[5rem] text-[#dca14e] font-bold"
+                data-val="48"
+              ></h1>
+              <span class="text-[#dca14e] text-[4rem] mt-3 font-bold"
+                >&plus;</span
+              >
+              <p class="text-white font-bold mt-[7rem] ml-3 absolute">
+                Construction
+              </p>
+              <hr
+                class="rotate-[90deg] w-[7rem] opacity-30 mt-[5rem] ml-[3rem] h-1"
+              />
+            </div>
+
+            <div class="h-[10rem] flex">
+              <h1
+                class="counter text-[5rem] text-[#dca14e] font-bold"
+                data-val="68"
+              ></h1>
+              <span class="text-[#dca14e] text-[4rem] mt-3 font-bold"
+                >&plus;</span
+              >
+              <p class="text-white font-bold mt-[7rem] ml-3 absolute">
+                Project Done
+              </p>
+            </div>
+          </div>
+
+          <!-- Review section -->
+          <!-- <div
+            class="h-full w-full relative flex flex-col items-center justify-center mt-[5rem]"
+          >
+            <div class="text-center w-[35rem]">
+              <h1
+                class="text-[3rem] font-bold leading-none text-white"
+              >
+                Here's what our satisfied clients are saying
+              </h1>
+            </div>
+          </div> -->
+
+          <!-- Review card section -->
+          <!-- <div class="flex float-left overflow">
+            <div
+              class="h-[18rem] mb-5 w-[30rem] bg-[#30373f] relative mt-[5rem] ml-[3rem] rounded-md cursor-pointer item"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-[3rem] fill-[#dca14e] absolute mt-10 ml-5"
+                viewBox="0 0 448 512"
+              >
+             
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <p class="p-[2rem] mt-14 absolute text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Obcaecati soluta ipsam eum corrupti incidunt doloremque minus
+                officiis odit veritatis perspiciatis.
+              </p>
+              <div class="flex absolute mt-[10rem] p-[2rem]">
+                <img
+                  src="images/profile.png"
+                  class="border rounded-full h-[5rem]"
+                />
+                <h1 class="ml-5 mt-4 font-bold text-white">Ram raj</h1>
+              </div>
+              <p class="absolute text-white font-light mt-[14.3rem] ml-[8rem]">
+                senior client
+              </p>
+            </div>
+
+            <div
+              class="h-[18rem] mb-5 w-[30rem] bg-[#30373f] relative mt-[5rem] ml-[3rem] rounded-md cursor-pointer item"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-[3rem] fill-[#dca14e] absolute mt-10 ml-5"
+                viewBox="0 0 448 512"
+              >
+                
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <p class="p-[2rem] mt-14 absolute text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Obcaecati soluta ipsam eum corrupti incidunt doloremque minus
+                officiis odit veritatis perspiciatis.
+              </p>
+              <div class="flex absolute mt-[10rem] p-[2rem]">
+                <img
+                  src="images/profile.png"
+                  class="border rounded-full h-[5rem]"
+                />
+                <h1 class="ml-5 mt-4 font-bold text-white">Ram raj</h1>
+              </div>
+              <p class="absolute text-white font-light mt-[14.3rem] ml-[8rem]">
+                senior client
+              </p>
+            </div>
+
+            <div
+              class="h-[18rem] mb-5 w-[30rem] bg-[#30373f] relative mt-[5rem] ml-[3rem] rounded-md cursor-pointer item"
+            >
+              <div></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-[3rem] fill-[#dca14e] absolute mt-10 ml-5"
+                viewBox="0 0 448 512"
+              >
+               
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <p class="p-[2rem] mt-14 absolute text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Obcaecati soluta ipsam eum corrupti incidunt doloremque minus
+                officiis odit veritatis perspiciatis.
+              </p>
+              <div class="flex absolute mt-[10rem] p-[2rem]">
+                <img
+                  src="images/profile.png"
+                  class="border rounded-full h-[5rem]"
+                />
+                <h1 class="ml-5 mt-4 font-bold text-white">Ram raj</h1>
+              </div>
+              <p class="absolute text-white font-light mt-[14.3rem] ml-[8rem]">
+                senior client
+              </p>
+            </div>
+
+            <div
+              class="h-[18rem] mb-5 w-[30rem] bg-[#30373f] relative mt-[5rem] ml-[3rem] rounded-md cursor-pointer item"
+            >
+              <div></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-[3rem] fill-[#dca14e] absolute mt-10 ml-5"
+                viewBox="0 0 448 512"
+              >
+                
+                <path
+                  d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+                />
+              </svg>
+              <p class="p-[2rem] mt-14 absolute text-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Obcaecati soluta ipsam eum corrupti incidunt doloremque minus
+                officiis odit veritatis perspiciatis.
+              </p>
+              <div class="flex absolute mt-[10rem] p-[2rem]">
+                <img
+                  src="images/profile.png"
+                  class="border rounded-full h-[5rem]"
+                />
+                <h1 class="ml-5 mt-4 font-bold text-white">Ram raj</h1>
+              </div>
+              <p class="absolute text-white font-light mt-[14.3rem] ml-[8rem]">
+                senior client
+              </p>
+            </div>
+          </div> -->
+        </div>
+
+        <div
+          class="h-[15rem] relative flex items-center justify-center bg-[#342f2fb5] text-white"
+        >
+          <div class="flex gap-10">
+            <div class="relative ml-[10rem]">
+              <h1 class="font-bold text-white">Be Future-Ready</h1>
+              <p class="w-[20rem] mt-5 text-white text-[0.7rem]">
+                Unlock the potential of your space with our visionary
+                architects. From concept to construction, we turn imagination
+                into breathtaking reality. Elevate your environment. Elevate
+                your experience. Let's build something extraordinary together.
+              </p>
+            </div>
+            <div>
+              <h2 class="text-white font-bold">About</h2>
+              <ul class="text-[0.7rem] mt-5">
+                <a href="#">Our Team </a>
+              </ul>
+              <ul class="text-[0.7rem]">
+                <a href="#">Project </a>
+              </ul>
+              <ul class="text-[0.7rem]">
+                <a href="#"> term and conditions</a>
+              </ul>
+              <ul class="text-[0.7rem]">
+                <a href="#"> privacy and policy </a>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-bold">
+                <p>Connect With Us</p>
+              </div>
+              <div class="flex gap-3 mt-4">
+                <a href="#"
+                  ><i
+                    class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                  ></i
+                ></a>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                  ></i
+                ></a>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                  ></i
+                ></a>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                  ></i
+                ></a>
+                <a href=""
+                  ><i
+                    class="fa-brands fa-facebook scale-100 hover:scale-150 duration-300 transition-all"
+                  ></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="ml-5">
+              <h3 class="font-bold">Contact Us</h3>
+              <div class="mt-5">
+                <ul class="flex gap-5">
+                  <i class="fa fa-phone mt-2" aria-hidden="true"></i>
+                  <p>+91- 9818381406</p>
+                </ul>
+                <ul class="flex gap-5">
+                  <i class="fa-solid fa-envelope mt-2"></i>
+                  <p>sharmaroshan685@gamil.com</p>
+                </ul>
+                <ul class="flex gap-5">
+                  <i class="fa-solid fa-location-dot mt-2"></i>
+                  <p>
+                    25/A, Gagan Vihar, MithaPur, BadarPur New Delhi- 110044.
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="absolute w-[35rem] mt-[10rem] ml-[10rem]">
+            <p class="text-white text-[0.8rem] absolute text-center">
+              &copy; copyright 2024
+              <span class="text-[#d7a150]"
+                >City Architecture and Planning.</span
+              >
+              All rights reserved.
+            </p>
+          </div>
+          <img
+            src="./images/src3-removebg-preview.png"
+            class="h-[14rem] w-[25rem] -ml-[10rem] mix-blend-color-burn z-20"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="javaScript/index.js"></script>
+    <script src="javaScript/bgheading.js"></script>
+    <script src="javaScript/scroll.js"></script>
+    <script src="javaScript/numberCount.js"></script>
+
+    <script src="javaScript/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
